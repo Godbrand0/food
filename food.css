@@ -150,14 +150,16 @@ input{
     outline: none;
     border: none;
     background: var(--light-color);
-    padding: 10px 10px;
+    padding: 20px 10px;
     width: 220px;
     height: 40px;
+    
 }
 input::placeholder{
     color: #000;
     font-weight: bold;
     font-size: 15px;
+
 }
 
 .icon-1{
@@ -186,7 +188,7 @@ input::placeholder{
     border: none;
     background: var(--light-color);
     border-radius: 40px;
-    padding: 10px 10px;
+    padding: 20px 10px;
     margin: 20px 0;
 }
 .input-2::placeholder{
