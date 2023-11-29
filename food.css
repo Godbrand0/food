@@ -151,7 +151,7 @@ input{
     border: none;
     background: var(--light-color);
     padding: 10px 10px;
-    width: 240px;
+    width: 220px;
     height: 40px;
 }
 input::placeholder{
@@ -170,7 +170,7 @@ input::placeholder{
 .icon-2{
     width: 25px;
     position: relative;
-    right: 5px;
+    right: -20px;
     cursor: pointer;
     top: 5px;
 }
