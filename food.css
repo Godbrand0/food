@@ -152,6 +152,7 @@ input{
     background: var(--light-color);
     padding: 10px 10px;
     width: 260px;
+    height: 50px;
 }
 input::placeholder{
     color: #000;
@@ -417,6 +418,7 @@ h4{
     align-items: center;
     overflow-x: scroll;
     left: -10px;
+    margin-bottom: 50px;
 }
 h2{
     font-size: 20px;
