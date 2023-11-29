@@ -150,7 +150,8 @@ input{
     outline: none;
     border: none;
     background: var(--light-color);
-    padding: 7px 10px;
+    padding: 10px 10px;
+    width: 260px;
 }
 input::placeholder{
     color: #000;
@@ -161,14 +162,14 @@ input::placeholder{
 .icon-1{
     width: 25px;
     position: relative;
-    right: -85px;
+    right: 5px;
     cursor: pointer;
     top: 5px;
 }
 .icon-2{
     width: 25px;
     position: relative;
-    right: -85px;
+    right: 5px;
     cursor: pointer;
     top: 5px;
 }
