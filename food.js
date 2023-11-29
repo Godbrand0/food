@@ -124,9 +124,9 @@ text_17.addEventListener("click", function(){
 
 back_6.addEventListener("click", function(){
     section_8.style.display ="block";
-    section_10.style.display ="none";
+    section_9.style.display ="none";
 })
 back_7.addEventListener("click", function(){
     section_8.style.display ="block";
-    section_9.style.display ="none";
+    section_10.style.display ="none";
 })
