@@ -301,7 +301,7 @@ h4{
     border-radius: 5px;
     margin-top: 50px;
     padding: 10px 10px;
-    font-size: 10px;
+    font-size: 20px;
 }
 .ico-2{
     display: flex;
@@ -385,7 +385,6 @@ h4{
     top: 40px;
     left: -20px;
     cursor: pointer;
-    font-size: 20px;
 }
 .over{
     overflow: hidden;
