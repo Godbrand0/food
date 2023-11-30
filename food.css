@@ -147,7 +147,7 @@ hr{
   left: -100px;
   bottom: px;
   display: flex;
-  gap: 10px;
+  gap: 50px;
 }
 .icons{
  display: flex;
@@ -161,7 +161,7 @@ hr{
     cursor: pointer;
 }
 .img-2{
-    width: 300px;
+    width: 250px;
     object-fit: cover;
     
 }
@@ -212,6 +212,11 @@ input::placeholder{
     right: -20px;
     cursor: pointer;
     top: 5px;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+.icon-2:hover{
+    opacity: 1;
 }
 .icon-3{
     width: 25px;
@@ -238,6 +243,11 @@ input::placeholder{
     text-align: right;
     margin: 10px 0;
     cursor: pointer;
+    transition: all 0.5s;
+}
+#text-18:hover{
+    color: var(--norma);
+    letter-spacing: 1px;
 }
 .foot{
     margin-top: 70px;

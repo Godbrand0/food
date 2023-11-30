@@ -11,6 +11,7 @@ const section_10 = document.querySelector('.section-10');
 const text = document.querySelector('.text');
 const con = document.querySelectorAll('.con');
 const icon = document.querySelectorAll('.ico-1');
+const pwShowHide = document.querySelectorAll('.icon-2');
 
 const button_1 = document.getElementById('button_1');
 const button_2 = document.getElementById('button_2');
@@ -82,7 +83,8 @@ button_6.addEventListener("click", function(){
     section_2.style.display ="block";
     section_5.style.display ="none";
 
-    
+    section_2.classList.add ("back");
+    section_2.classList.remove ("active");
 })
 
 back_1.addEventListener("click", function(){
@@ -167,4 +169,20 @@ back_7.addEventListener("click", function(){
     section_10.style.display ="none";
 
     section_8.classList.add ('back');
+})
+
+
+pwShowHide.forEach (eyeIcon =>{
+    eyeIcon.addEventListener('click', () => {
+        let pwFields = eyeIcon.parentElement.querySelectorAll('.password');
+
+        pwFields.forEach(password => {
+            if (password.type === 'password') {
+                password.type = 'text';
+            } else {
+                password.type = 'password';
+            }
+            
+        })
+    })
 })
