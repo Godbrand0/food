@@ -473,6 +473,7 @@ h2{
     align-items: center;
     overflow-x: scroll;
     left: -10px;
+    margin-bottom: 50px;
 }.item-9{
     border-radius: 10px;
     width: 100px;
