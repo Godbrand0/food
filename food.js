@@ -39,62 +39,88 @@ const search = document.getElementById('search');
 button_1.addEventListener("click", function(){
     section_1.style.display ="none";
     section_2.style.display ="block";
+
+    section_2.classList.add ("active");
 })
 
 button_2.addEventListener("click", function(){
     section_1.style.display ="none";
     section_3.style.display ="block";
+
+    section_3.classList.add ("active");
 })
 
 button_3.addEventListener("click", function(){
     section_2.style.display ="none";
     section_6.style.display ="block";
+
+    section_6.classList.add ("active");
 })
 
 button_4.addEventListener("click", function(){
     section_3.style.display ="none";
     section_6.style.display ="block";
+
+    section_6.classList.add ("active");
 })
 
 text.addEventListener("click", function(){
     section_4.style.display ="block";
     section_3.style.display ="none";
     section_2.style.display ="none";
+    section_4.classList.add ("active");
 })
 
 button_5.addEventListener("click", function(){
     section_5.style.display ="block";
     section_4.style.display ="none";
+
+    section_5.classList.add ("active");
 })
 
 button_6.addEventListener("click", function(){
     section_2.style.display ="block";
     section_5.style.display ="none";
+
+    
 })
 
 back_1.addEventListener("click", function(){
     section_1.style.display ="block";
     section_2.style.display ="none";
+
+    section_1.classList.add ('back');
 })
 
 back_2.addEventListener("click", function(){
     section_1.style.display ="block";
     section_3.style.display ="none";
+
+    section_1.classList.add ('back');
 })
 
 back_3.addEventListener("click", function(){
     section_2.style.display ="block";
     section_4.style.display ="none";
+
+    section_2.classList.add ('back');
+    section_2.classList.remove ('active');
 })
 
 back_4.addEventListener("click", function(){
     section_4.style.display ="block";
     section_5.style.display ="none";
+
+    section_4.classList.remove ('active');
+    section_4.classList.add ('back');
 })
 
 back_5.addEventListener("click", function(){
     section_7.style.display ="block";
     section_8.style.display ="none";
+
+    section_7.classList.add ('back');
+    section_7.classList.remove ('active');
 })
 
 
@@ -102,11 +128,15 @@ back_5.addEventListener("click", function(){
 button_7.addEventListener("click", function(){
     section_7.style.display ="block";
     section_6.style.display ="none";
+
+    section_7.classList.add ("active");
 })
 
 text_2.addEventListener("click", function(){
     section_9.style.display ="block";
     section_8.style.display ="none";
+
+    section_9.classList.add ("active");
 })
 
 
@@ -114,19 +144,27 @@ text_2.addEventListener("click", function(){
 search.addEventListener("click", function(){
     section_8.style.display ="block";
     section_7.style.display ="none";
+
+    section_8.classList.add ("top");
 })
 
 
 text_17.addEventListener("click", function(){
     section_10.style.display ="block";
     section_8.style.display ="none";
+
+    section_10.classList.add ("active");
 })
 
 back_6.addEventListener("click", function(){
     section_8.style.display ="block";
     section_9.style.display ="none";
+    section_8.classList.remove ('active');
+    section_8.classList.add ('back');
 })
 back_7.addEventListener("click", function(){
     section_8.style.display ="block";
     section_10.style.display ="none";
+
+    section_8.classList.add ('back');
 })
