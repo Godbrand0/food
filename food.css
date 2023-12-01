@@ -23,7 +23,6 @@ body{
     justify-content: center;
     align-items: center;
    
-    
 }
 section{
     overflow: hidden;
@@ -79,9 +78,9 @@ section{
 }
 .img-1{
     position: relative;
-    left: 40px;
-    height: 250px;
-    width: 250px;
+    left: 10px;
+    height: 350px;
+    width: 300px;
     margin-top: 20px;
 }
 .button{
