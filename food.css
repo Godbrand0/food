@@ -1,5 +1,5 @@
 :root{
-    --norma:#d97706;
+    --norma:#ff8a03;
     --hover:#78350f;
     --light-color:#eca04a;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -17,17 +17,59 @@
 
 body{
     background: var(--norma);
-    color: var(--text);
+    color: var();
     font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    
+    
+}
+.icons-3{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+.icon-13{
+    width: 50px;
+    color: white;
+    cursor: pointer;
+}
+.image-2{
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.text-22{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
 }
 section{
     overflow: hidden;
-    height: 700px;
+    height: 650px;
     transition: all 1s;
+    
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70%;
+    gap: 10px;
+}
+
+.bottom-cir{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.5;
 }
 .back{
     animation: sideinleft 1s ease;
@@ -72,9 +114,9 @@ section{
     margin: auto 0;
     padding:0  40px;
     border-radius: 10px;
-    height: 700px;
-    overflow: scroll;
-    
+    height: 650px;
+    overflow: auto;
+    margin: 10px 0;
 }
 .img-1{
     position: relative;
@@ -316,7 +358,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: -70px;
+    margin-top: -80px;
     transition: all 0.5s;
     background: wheat;
     padding: 10px 10px;
@@ -537,20 +579,21 @@ h2{
     width: 5px;
 }
 
-#text-2{
+.text-20{
+    color: white;
+    font-weight: bold;
+    background: var(--norma);
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
     cursor: pointer;
     transition: all 0.5s;
+    margin-top: -10px;
 }
-#text-2:hover{
-    color: var(--norma);
-    letter-spacing: 1px;
-}
-#text-17{
-    cursor: pointer;
-    transition: all 0.5s;
+.text-20:hover{
+    letter-spacing: .1rem;
+    background: var(--hover);
 }
 
-#text-17:hover{
-    color: var(--norma);
-    letter-spacing: 1px;
-}
+
